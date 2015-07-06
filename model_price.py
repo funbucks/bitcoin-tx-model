@@ -5,7 +5,7 @@ import urllib2
 from math import log10
 
 def n_tx_to_price(n_tx, totalbc):
-    model_price = 1.e8*(10**-0.638)*(n_tx**2.181)/totalbc/13
+    model_price = 1.e8*(10**-0.638)*(n_tx**2.181)/totalbc/15
     return model_price
 
 
